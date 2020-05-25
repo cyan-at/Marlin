@@ -2939,7 +2939,7 @@
  */
 #define CUSTOM_USER_MENUS
 #if ENABLED(CUSTOM_USER_MENUS)
-  #define CUSTOM_USER_MENU_TITLE "V1 Custom Menu"
+  #define CUSTOM_USER_MENU_TITLE "cyan custom menu"
   #define USER_SCRIPT_DONE "M117 User Script Done"
   #define USER_SCRIPT_AUDIBLE_FEEDBACK
   //#define USER_SCRIPT_RETURN  // Return to status screen after a script
@@ -2947,11 +2947,14 @@
   #define USER_DESC_1 "Reset All Coordinates"
   #define USER_GCODE_1 "G92 X0 Y0 Z0"
 
-  #define USER_DESC_2 "Home Z Axis"
+  #define USER_DESC_2 "Home Z"
   #define USER_GCODE_2 "G28 Z"
 
-  #define USER_DESC_3 "Home X&Y"
-  #define USER_GCODE_3 "G28 X Y"
+  #define USER_DESC_3 "Home X"
+  #define USER_GCODE_3 "G28 X"
+
+  #define USER_DESC_4 "Home Y"
+  #define USER_GCODE_4 "G28 Y"
 
   //#define USER_DESC_4 "Heat Bed/Home/Level"
   //#define USER_GCODE_4 "M140 S" STRINGIFY(PREHEAT_2_TEMP_BED) "\nG28\nG29"
